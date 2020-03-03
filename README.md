@@ -1,7 +1,5 @@
 # unterpolate
 
--- 
-
 Unterpolate is used to map a template (`string`, `array`, `object`) and value to an object representation **and back again**.
 
 ```js
@@ -28,11 +26,23 @@ from(template,{
 // '2019-10-01'
 ```
 
+## Installation
+
+Same as usual, npm:
+```
+npm install unterpolate
+```
+
+or yarn:
+```
+yarn add unterpolate
+```
+
 ## Usage
 
-Interpolations are everywhere - use a single template and create multiple strings from it depending on variable pieces. Interpolation is a solution that makes it much easier to generate dynamic strings.
+Interpolations are ubiquitous, from the first templating engines, to internationalization, etc.
 
-Interpolation doesn't have to stop at strings, we can use it to map values from one data structure to another, which is why `unterpolate` was created.
+Interpolations don't have to just work for creating strings, however. With the right tools, it can be used to create more complex data transformations, which is the purpose of `unterpolate`.
 
 ### simple string mapping
 
