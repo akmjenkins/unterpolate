@@ -1,0 +1,12 @@
+node_modules
+
+\.DS_Store
+
+# ignore dependencies lock files
+package-lock.json
+yarn-error.log
+build/
+coverage/
+
+website/node_modules
+website/yarn.lock

@@ -1,0 +1,50 @@
+{
+  "name": "unterpolate",
+  "version": "1.0.0",
+  "description": "Map any value containing interpolations to an object and back",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "keywords": [
+    "interpolate",
+    "interpolation",
+    "map",
+    "object mapping",
+    "transforms",
+    "transformations",
+    "flat"
+  ],
+  "files": [
+    "build"
+  ],
+  "homepage": "https://github.com/akmjenkins/unterpolate",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf build && rollup -c",
+    "lint": "eslint src"
+  },
+  "author": "Adam Jenkins",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "7.6.0",
+    "flat": "^5.0.0",
+    "property-expr": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0"
+  }
+}
