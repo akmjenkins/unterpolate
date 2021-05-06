@@ -27,7 +27,7 @@
   "dependencies": {
     "@babel/runtime": "7.6.0",
     "flat": "^5.0.0",
-    "property-expr": "^1.5.1"
+    "property-expr": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
